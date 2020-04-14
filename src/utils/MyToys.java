@@ -16,7 +16,7 @@ public class MyToys {
     //0!  = 1
     //
     public static long cF(int n){
-        if(n < 0){
+        if(n < 0 || n > 15){
             throw new IllegalArgumentException("Sorry, n must be >= 0");
         }
         if(n == 0){
@@ -24,7 +24,7 @@ public class MyToys {
         }
         //phần còn lại hợp lệ, tính bt
         long product = 1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             product *= i;
             
         }
