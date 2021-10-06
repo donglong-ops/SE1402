@@ -24,5 +24,7 @@ public class SE1402 {
         System.out.println("Exeption: " + MyToys.cF(-5)); // kỳ vọng bị sml
                                 //bị ném mặt cái ngoại lệ
     }
+	
+	System.out.println("Hello , this is branch 1"); 
     
 }
